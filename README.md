@@ -5,6 +5,8 @@ IEEE Transactions on Network and Service Management
 Dataset - https://zenodo.org/records/10632827
 
 **Reproducibility**
+In order to enable the reproduction of our ﬁndings, we make the raw data of our measurements as well as the analysis scripts and supplementary ﬁles publicly available within this repository.
+
 **1. RIPE Atlas Measurement**
 The following tools were developed:
 
