@@ -45,6 +45,5 @@ Mike Kosek (kosek@in.tum.de)
 Nils Faulhaber (n.faulhaber@membrain-it.com)
 
 Jayasree Sengupta (jayasree.sengupta@cispa.de)
-
 Vaibhav Bajpai (vaibhav.bajpai@hpi.de)
 
