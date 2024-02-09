@@ -1,10 +1,10 @@
-**Evaluating DNS Resiliency and Responsiveness with Truncation, Fragmentation & DoTCP Fallback**
+#**Evaluating DNS Resiliency and Responsiveness with Truncation, Fragmentation & DoTCP Fallback**
 
 IEEE Transactions on Network and Service Management
 
 Dataset - https://zenodo.org/records/10632827
 
-**Reproducibility**
+##**Reproducibility**
 In order to enable the reproduction of our ﬁndings, we make the raw data of our measurements as well as the analysis scripts and supplementary ﬁles publicly available within this repository.
 
 **1. RIPE Atlas Measurement**
@@ -30,7 +30,7 @@ To now start a specific experiment, we first retrieve the probes whose IDs were 
 1. _ripe_results_to_db.ipynb_ provides the functionality to select measurements with a specific tag and store them in a database.
 2. _database_table.py_ allows to creation of tables with specified columns and automatically transfers the RIPE Atlas results to SQLite database entries
 
-**CORE DNS Plugins**
+##**CORE DNS Plugins**
 
 [echo](https://github.com/nilsfaulhaber/echo-plugin-for-coredns) and [fallback-monitor](https://github.com/nilsfaulhaber/fallbackmonitor-plugin-for-coredns) plugins firstly retrieve the data from the incoming request by their _ServeDNS_ function. _assembleRR_ is then used in both plugins to realize the encoding of the DNS message alongside the sender’s IP address and the transport protocol that was used. _server.go_ is used to get the information about the used transport protocol. The requests over one protocol are stored in the _context-variables_. It is necessary to add _util.go_ in the _go source_ when the file is added to the repository of _echo_. _MsgAcceptFunc_ is added to leave all requests through to the plugins.
 
