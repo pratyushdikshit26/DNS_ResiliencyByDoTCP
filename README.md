@@ -38,12 +38,9 @@ To now start a specific experiment, we first retrieve the probes whose IDs were 
 
 Please feel welcome to contact the authors for further details.
 
-Pratyush Dikshit (pratyush.dikshit@cispa.de)(corresponding author)
-
-Mike Kosek (kosek@in.tum.de)
-
-Nils Faulhaber (n.faulhaber@membrain-it.com)
-
-Jayasree Sengupta (jayasree.sengupta@cispa.de)
-Vaibhav Bajpai (vaibhav.bajpai@hpi.de)
+* Pratyush Dikshit (pratyush.dikshit@cispa.de)(corresponding author)
+* Mike Kosek (kosek@in.tum.de)
+* Nils Faulhaber (n.faulhaber@membrain-it.com)
+* Jayasree Sengupta (jayasree.sengupta@cispa.de)
+* Vaibhav Bajpai (vaibhav.bajpai@hpi.de)
 
